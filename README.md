@@ -19,7 +19,7 @@ following:
   feature_ or _change_ would be accepted in a project before you begin
 development work on it.
 
-These are some things that don't below in the issue tracker:
+These are some things that don't belong in the issue tracker:
 
 + **Please avoid personal support requests.** I'm just one person and I cannot
 provide personal support for implementation issues. The best place for help is
