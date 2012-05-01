@@ -1,7 +1,7 @@
 # Issue Guidelines
 
 Please read this document before submitting an issue or pull request to one of
-my projects. It really helps me out and let's me know that you respect my time.
+my projects. It really helps me out and lets me know that you respect my time.
 In return, I'll show the same respect in addressing your issue.
 
 If you think this guide can be improved, please let me know.
