@@ -56,7 +56,7 @@ Please use [jsFiddle](http://jsfiddle.net) to host examples.
 
 Please try to be as detailed as possible in your report too. What is your
 environment? What steps will reproduce the issue? What browser(s) and OS
-experience the problem? What would you expect to be the outcome. All these
+experience the problem? What would you expect to be the outcome? All these
 details will help me and others to assess and fix any potential bugs.
 
 ### Example of a good bug report:
@@ -125,14 +125,13 @@ project:
 4. Get the latest changes from upstream (e.g. `git pull upstream
    <dev-branch>`).
 5. Create a new topic branch to contain your feature, change, or fix ( `git
-   checkout -b topic-name` ).
+   checkout -b <topic-branch-name>` ).
 6. Make sure that your changes adhere to the current coding conventions used
    throughout the project - indentation, accurate comments, etc.
 7. Commit your changes in logical chunks. Please adhere to these [git commit
-   message
-guidelines](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
-or your pull request is unlikely be merged into the main project.
-8. Push the branch up to your fork ( `git push origin topic-name` ).
+   message guidelines](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
+   or your pull request is unlikely be merged into the main project.
+8. Push the branch up to your fork ( `git push origin <topic-branch-name>` ).
 9. [Open a Pull Request](http://help.github.com/send-pull-requests/) with a
    clear title and description. Please mention which browsers you tested in.
 
