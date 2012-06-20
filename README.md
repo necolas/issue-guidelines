@@ -119,7 +119,7 @@ project:
 
 1. [Fork](http://help.github.com/fork-a-repo/) the project.
 2. Clone your fork ( `git clone
-   git@github.com:<your-username>/<repo-name>git`).
+   git@github.com:<your-username>/<repo-name>.git`).
 3. Add an `upstream` remote (`git remote add upstream
    git://github.com/<upsteam-owner>/<repo-name>.git`).
 4. Get the latest changes from upstream (e.g. `git pull upstream
