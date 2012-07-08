@@ -141,7 +141,7 @@ project:
    message guidelines](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
    or your pull request is unlikely be merged into the main project.
 
-8. Merge (or rebase) your topic branch into the upstream branch.
+8. Locally merge (or rebase) the upstream branch into your topic branch.
 
 9. Push your topic branch up to your fork (`git push origin
    <topic-branch-name>`).
