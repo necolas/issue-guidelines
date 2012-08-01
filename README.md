@@ -53,7 +53,7 @@ Please read the following guidelines for reporting bugs:
    extremely simple and immediately viewable example of the issue.
 
 4. **Include a live example** &mdash; provide a link to your reduced test case
-   when appropriate (e.g. if the issue is related to frond-end technologies).
+   when appropriate (e.g. if the issue is related to front-end technologies).
    Please use [jsFiddle](http://jsfiddle.net) to host examples.
 
 Please try to be as detailed as possible in your report too. What is your
