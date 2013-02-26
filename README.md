@@ -128,5 +128,5 @@ project:
    git push origin <topic-branch-name>
    ```
 
-10. [Open a Pull Request](http://help.github.com/send-pull-requests/) with a
-    clear title and description.
+10. [Open a Pull Request](https://help.github.com/articles/using-pull-requests/)
+    with a clear title and description.
