@@ -1,26 +1,32 @@
-# Rules of engagement
+# Contributing to this project
+
+Please take a moment to review this document in order to make the contribution
+process easy and effective for everyone involved.
 
 Following these guidelines helps to communicate that you respect the time of
-those developers managing and developing an open source project. In return,
-they should reciprocate that respect in addressing your issue and
-assessing patches and features.
-
-If you think this guide can be improved, please share your thoughts.
+the developers managing and developing this open source project. In return,
+they should reciprocate that respect in addressing your issue or assessing
+patches and features.
 
 
-## Do not…
+## Using the issue tracker
 
-Please **do not** use the issue tracker for personal support requests (use
-StackOverflow or IRC).
+The issue tracker is the preferred channel for [bug reports](#bugs),
+[features requests](#features) and [submitting pull
+requests](#pull-requests), but please respect the following restrictions:
 
-Please **do not** derail or troll issues. Keep the
-discussion on topic and respect the opinions of others.
+* Please **do not** use the issue tracker for personal support requests (use
+  [Stack Overflow](http://stackoverflow.com) or IRC).
+
+* Please **do not** derail or troll issues. Keep the discussion on topic and
+  respect the opinions of others.
 
 
-## Bugs
+<a name="bugs"></a>
+## Bug reports
 
-A bug is a _demonstrable problem_ that is caused by the code in the
-repository. Good bug reports are extremely helpful - thank you!
+A bug is a _demonstrable problem_ that is caused by the code in the repository.
+Good bug reports are extremely helpful - thank you!
 
 Guidelines for bug reports:
 
@@ -58,42 +64,43 @@ Example:
 > merits).
 
 
-## Feature requests & contribution enquiries
+<a name="features"></a>
+## Feature requests
 
 Feature requests are welcome. But take a moment to find out whether your idea
 fits with the scope and aims of the project. It's up to *you* to make a strong
 case to convince the project's developers of the merits of this feature. Please
 provide as much detail and context as possible.
 
-Contribution enquiries should take place before any significant pull request
-(e.g. implementing features, refactoring code, porting to a different
-language), otherwise you risk spending a lot of time working on something that
-the project's developers might not want to pull into the repository.
 
-
+<a name="pull-requests"></a>
 ## Pull requests
 
 Good pull requests - patches, improvements, new features - are a fantastic
 help. They should remain focused in scope and avoid containing unrelated
 commits.
 
-Make sure to adhere to the coding conventions used throughout a project
-(indentation, accurate comments, etc.) and any other requirements (such as test
-coverage).
+**Please ask first** before embarking on any significant pull request (e.g.
+implementing features, refactoring code, porting to a different language),
+otherwise you risk spending a lot of time working on something that the
+project's developers might not want to merge into the project.
 
-Please follow this process; it's the best way to get your work included in the
-project:
+Please adhere to the coding conventions used throughout a project (indentation,
+accurate comments, etc.) and any other requirements (such as test coverage).
+
+Adhering to the following this process is the best way to get your work
+included in the project:
 
 1. [Fork](http://help.github.com/fork-a-repo/) the project, clone your fork,
    and configure the remotes:
 
    ```bash
-   # Clones your fork of the repo into the current directory in terminal
-   git clone https://github.com/<your-username>/<repo-name>.git
+   # Clone your fork of the repo into the current directory
+   git clone https://github.com/<your-username>/<repo-name>
    # Navigate to the newly cloned directory
    cd <repo-name>
-   # Assigns the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/<upsteam-owner>/<repo-name>.git
+   # Assign the original repo to a remote called "upstream"
+   git remote add upstream https://github.com/<upsteam-owner>/<repo-name>
    ```
 
 2. If you cloned a while ago, get the latest changes from upstream:
@@ -103,16 +110,16 @@ project:
    git pull upstream <dev-branch>
    ```
 
-3. Create a new topic branch to contain your feature, change, or fix:
+3. Create a new topic branch (off the main project development branch) to
+   contain your feature, change, or fix:
 
    ```bash
    git checkout -b <topic-branch-name>
    ```
 
 4. Commit your changes in logical chunks. Please adhere to these [git commit
-   message
-   guidelines](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
-   or your pull request is unlikely be merged into the main project. Use git's
+   message guidelines](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
+   or your code is unlikely be merged into the main project. Use Git's
    [interactive rebase](https://help.github.com/articles/interactive-rebase)
    feature to tidy up your commits before making them public.
 
