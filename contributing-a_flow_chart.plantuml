@@ -1,0 +1,44 @@
+/'
+Render this file with PlantUML.
+Official website: http://plantuml.sourceforge.net/
+'/
+
+@startuml
+
+start
+
+:you found a <b>Bug</b>;
+
+if (can you provide a <b>reproducible test</b>?) then (yes)
+
+    if (can you reproduce against <b>master / latest / dev</b> branch?) then (yes)
+
+        if (can you provide a <b>fix</b>?) then (yes)
+
+            :read and follow \n<b>contribution</b> \n<b>guidelines</b>;
+            :mention addressed issue: \n<i>... fixes #ISSUE_NUMBER</i>;
+            :submit <b>Pull Request</b>;
+
+        else (no)
+
+            if (already in <b>issue tracker</b>?) then (yes)
+                :add <i>"+1 / me too"</i> \nto help <b>gauge</b> \n<b>priorities</b>;
+            else (no)
+                :submit <b>Issue</b>;
+            endif
+
+            :provide <b>reproducible test</b> \n+ <b>env. / o.s. / ver.</b> info;
+
+        endif
+
+    else (no)
+        :<b>update</b> to latest \nversion OR wait \nfor next release;
+    endif
+
+else (no)
+    :nothing to do here: \nthis is not actionable;
+endif
+
+stop
+
+@enduml
