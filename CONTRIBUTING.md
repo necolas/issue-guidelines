@@ -137,3 +137,6 @@ included in the project:
 
 10. [Open a Pull Request](https://help.github.com/articles/using-pull-requests/)
     with a clear title and description.
+
+**IMPORTANT**: By submitting a patch, you agree to allow the project owner to
+license your work under the same license as that used by the project.
