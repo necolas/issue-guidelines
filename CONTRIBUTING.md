@@ -36,7 +36,7 @@ Guidelines for bug reports:
 2. **Check if the issue has been fixed** &mdash; try to reproduce it using the
    latest `master` or development branch in the repository.
 
-3. **Isolate the problem** &mdash; ideally create a [reduced test
+3. **Isolate the problem** &mdash; create a [reduced test
    case](http://css-tricks.com/6263-reduced-test-cases/) and a live example.
 
 A good bug report shouldn't leave others needing to chase you up for more
@@ -88,8 +88,8 @@ project's developers might not want to merge into the project.
 Please adhere to the coding conventions used throughout a project (indentation,
 accurate comments, etc.) and any other requirements (such as test coverage).
 
-Adhering to the following this process is the best way to get your work
-included in the project:
+Follow this process if you'd like your work considered for inclusion in the
+project:
 
 1. [Fork](http://help.github.com/fork-a-repo/) the project, clone your fork,
    and configure the remotes:
