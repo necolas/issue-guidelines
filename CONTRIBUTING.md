@@ -8,7 +8,6 @@ the developers managing and developing this open source project. In return,
 they should reciprocate that respect in addressing your issue or assessing
 patches and features.
 
-
 ## Using the issue tracker
 
 The issue tracker is the preferred channel for [bug reports](#bugs),
@@ -21,6 +20,12 @@ requests](#pull-requests), but please respect the following restrictions:
 * Please **do not** derail or troll issues. Keep the discussion on topic and
   respect the opinions of others.
 
+## A flowchart
+
+In case you are unsure how to proceed, maybe the following (simplified)
+flowchart can help:
+
+![alt text](https://raw.github.com/detro/issue-guidelines/master/contributing-a_flow_chart.png "Contributing: A flowchart")
 
 <a name="bugs"></a>
 ## Bug reports
